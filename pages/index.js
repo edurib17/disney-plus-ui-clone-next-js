@@ -1,10 +1,17 @@
-import styled from 'styled-components'
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+import styled from "styled-components"
+import Company from "../components/Company"
+import Header from "../components/Header"
+import { Main } from "../components/Main"
+import Movies from "../components/Movies"
+import SliderImages from "../components/SliderImages"
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <Main>
+      <Header />
+      <SliderImages />
+      <Company />
+      <Movies />
+    </Main>
+  )
 }

@@ -7,9 +7,13 @@
   },
   "dependencies": {
     "next": "latest",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-is": "^17.0.2",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.3"
   },
   "devDependencies": {
