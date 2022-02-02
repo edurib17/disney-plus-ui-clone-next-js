@@ -1,4 +1,5 @@
-# netflix-clone
+# disney-plus-ui-clone-next-js
+
 
 ### Tecnologias Utilizadas:
 
